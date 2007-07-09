@@ -1,5 +1,5 @@
 %define name drakx-installer-rescue
-%define version 1.4
+%define version 1.5
 %define release %mkrel 1
 
 %define ldetect_lst_version %(rpm -q --queryformat '%{VERSION}-%{RELEASE}' ldetect-lst)
@@ -51,5 +51,3 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root)
 %{_libdir}/%name
-
-
