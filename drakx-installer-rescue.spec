@@ -1,5 +1,5 @@
 %define name drakx-installer-rescue
-%define version 1.5
+%define version 1.6
 %define release %mkrel 1
 
 %define ldetect_lst_version %(rpm -q --queryformat '%{VERSION}-%{RELEASE}' ldetect-lst)
@@ -15,7 +15,7 @@ Url: http://wiki.mandriva.com/Tools/DrakX
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: perl-XML-Parser squashfs-tools mknod-m600
 BuildRequires: ldetect-lst-devel
-BuildRequires: hexedit grub telnet rsync openssh-clients ftp-client-krb5 console-tools strace
+BuildRequires: hexedit grub telnet rsync openssh-clients ftp-client-krb5 kbd strace
 BuildRequires: gpart parted partimage
 BuildRequires: dump xfsdump eject testdisk extipl
 BuildRequires: xfsprogs reiserfsprogs jfsprogs ntfsprogs dosfstools
