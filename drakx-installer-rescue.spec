@@ -25,6 +25,7 @@ BuildRequires: mt-st
 BuildRequires: pciutils ldetect
 BuildRequires: vim-minimal
 BuildRequires: drakx-installer-binaries drakxtools-backend drakx-kbd-mouse-x11
+BuildRequires: nfs-utils-clients
 
 #- require the version used during build
 Requires: ldetect-lst = %ldetect_lst_version
