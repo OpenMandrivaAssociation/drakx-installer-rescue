@@ -1,6 +1,6 @@
 %define name drakx-installer-rescue
 %define version 1.7
-%define release %mkrel 1
+%define release %mkrel 2
 
 %define ldetect_lst_version %(rpm -q --queryformat '%{VERSION}-%{RELEASE}' ldetect-lst)
 
@@ -26,6 +26,7 @@ BuildRequires: pciutils ldetect
 BuildRequires: vim-minimal
 BuildRequires: drakx-installer-binaries drakxtools-backend drakx-kbd-mouse-x11
 BuildRequires: nfs-utils-clients
+BuildRequires: ka-deploy-source-node
 
 #- require the version used during build
 Requires: ldetect-lst = %ldetect_lst_version
