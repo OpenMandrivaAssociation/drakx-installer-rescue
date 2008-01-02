@@ -12,6 +12,7 @@ Source0: %{name}-%{version}.tar.bz2
 License: GPL
 Group: Development/Other
 Url: http://wiki.mandriva.com/Tools/DrakX
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: perl-XML-Parser squashfs-tools mknod-m600
 BuildRequires: ldetect-lst-devel
 BuildRequires: hexedit grub telnet rsync openssh-clients ftp-client-krb5 kbd strace
