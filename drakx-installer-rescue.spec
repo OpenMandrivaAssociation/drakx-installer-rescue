@@ -4,7 +4,7 @@
 
 %define ldetect_lst_version %(rpm -q --queryformat '%{VERSION}-%{RELEASE}' ldetect-lst)
 
-Summary: rescue image
+Summary: Rescue image
 Name: %{name}
 Version: %{version}
 Release: %{release}
