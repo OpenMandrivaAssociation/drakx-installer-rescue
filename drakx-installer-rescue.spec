@@ -23,9 +23,10 @@ BuildRequires: mdadm lvm2 dmraid
 BuildRequires: setserial
 BuildRequires: mt-st
 BuildRequires: pciutils ldetect
+BuildRequires: rpmtools
 BuildRequires: vim-minimal
 BuildRequires: drakx-installer-binaries drakxtools-backend drakx-kbd-mouse-x11
-BuildRequires: nfs-utils-clients
+BuildRequires: bind-utils nfs-utils-clients wget
 BuildRequires: ka-deploy-source-node
 
 #- require the version used during build
