@@ -1,6 +1,6 @@
 %define name drakx-installer-rescue
-%define version 1.7
-%define release %mkrel 3
+%define version 1.8
+%define release %mkrel 1
 
 %define ldetect_lst_version %(rpm -q --queryformat '%{VERSION}-%{RELEASE}' ldetect-lst)
 
