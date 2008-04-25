@@ -2,8 +2,6 @@
 %define version 1.9
 %define release %mkrel 1
 
-%define ldetect_lst_version %(rpm -q --queryformat '%{VERSION}-%{RELEASE}' ldetect-lst)
-
 Summary: Rescue image
 Name: %{name}
 Version: %{version}
@@ -28,9 +26,6 @@ BuildRequires: vim-minimal
 BuildRequires: drakx-installer-binaries drakxtools-backend drakx-kbd-mouse-x11
 BuildRequires: bind-utils nfs-utils-clients wget
 BuildRequires: ka-deploy-source-node
-
-#- require the version used during build
-Requires: ldetect-lst = %ldetect_lst_version
 
 %description
 rescue image
