@@ -1,6 +1,6 @@
 %define name drakx-installer-rescue
 %define version 1.9
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: Rescue image
 Name: %{name}
@@ -26,6 +26,7 @@ BuildRequires: vim-minimal
 BuildRequires: drakx-installer-binaries drakxtools-backend drakx-kbd-mouse-x11
 BuildRequires: bind-utils nfs-utils-clients wget
 BuildRequires: ka-deploy-source-node
+BuildRequires: ldetect-lst >= 0.1.222
 
 %description
 rescue image
