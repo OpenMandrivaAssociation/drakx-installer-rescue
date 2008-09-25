@@ -26,6 +26,7 @@ BuildRequires: vim-minimal
 BuildRequires: drakx-installer-binaries drakxtools-backend drakx-kbd-mouse-x11
 BuildRequires: bind-utils nfs-utils-clients wget
 BuildRequires: ka-deploy-source-node
+BuildRequires: cdialog
 BuildRequires: ldetect-lst >= 0.1.222
 
 %description
