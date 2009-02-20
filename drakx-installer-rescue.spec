@@ -1,5 +1,5 @@
 %define name drakx-installer-rescue
-%define version 1.11
+%define version 1.12
 %define release %mkrel 1
 
 Summary: Rescue image
