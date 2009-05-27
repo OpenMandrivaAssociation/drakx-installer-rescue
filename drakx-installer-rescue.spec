@@ -29,6 +29,7 @@ BuildRequires: ka-deploy-source-node
 BuildRequires: cdialog
 BuildRequires: ldetect-lst >= 0.1.222
 BuildRequires: ntfs-3g
+BuildRequires: cryptsetup photorec quota
 
 %description
 rescue image
