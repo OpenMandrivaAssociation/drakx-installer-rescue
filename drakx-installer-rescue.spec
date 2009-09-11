@@ -7,6 +7,7 @@ Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: %{name}-%{version}.tar.bz2
+Patch0:	squashfs.patch
 License: GPL
 Group: Development/Other
 Url: http://wiki.mandriva.com/Tools/DrakX
@@ -37,6 +38,7 @@ rescue image
 
 %prep
 %setup -q
+%patch0 -p0
 
 %build
 make -C rescue
