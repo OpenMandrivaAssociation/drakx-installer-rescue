@@ -1,5 +1,5 @@
 %define name drakx-installer-rescue
-%define version 1.20
+%define version 1.21
 %define release %mkrel 1
 
 Summary: Rescue image
@@ -17,7 +17,7 @@ BuildRequires: hexedit grub rsync openssh-clients krb5-appl-clients kbd strace
 BuildRequires: gpart parted partimage
 BuildRequires: dump xfsdump eject testdisk extipl
 BuildRequires: xfsprogs reiserfsprogs jfsprogs ntfsprogs dosfstools
-BuildRequires: mdadm lvm2 dmraid kpartx dmraid-events
+BuildRequires: mdadm lvm2 dmraid kpartx dmraid-events dmsetup
 BuildRequires: setserial
 BuildRequires: mt-st
 BuildRequires: pciutils ldetect
