@@ -16,7 +16,7 @@ BuildRequires: ldetect-lst-devel
 BuildRequires: hexedit grub rsync openssh-clients krb5-appl-clients kbd strace
 BuildRequires: gpart parted partimage
 BuildRequires: dump xfsdump eject testdisk extipl
-BuildRequires: xfsprogs reiserfsprogs jfsprogs ntfsprogs dosfstools btrfs-progs
+BuildRequires: xfsprogs reiserfsprogs jfsutils ntfsprogs dosfstools btrfs-progs
 BuildRequires: mdadm lvm2 dmraid kpartx dmraid-events dmsetup
 BuildRequires: setserial
 BuildRequires: mt-st
