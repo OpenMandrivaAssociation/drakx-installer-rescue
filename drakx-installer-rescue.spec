@@ -1,6 +1,6 @@
 %define name drakx-installer-rescue
 %define version 1.22
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: Rescue image
 Name: %{name}
@@ -18,8 +18,10 @@ BuildRequires: gpart parted partimage
 BuildRequires: dump xfsdump eject testdisk extipl
 BuildRequires: xfsprogs reiserfsprogs jfsutils ntfsprogs dosfstools btrfs-progs
 BuildRequires: mdadm lvm2 dmraid kpartx dmraid-events dmsetup
-BuildRequires: setserial
+BuildRequires: setserial tcpdump
 BuildRequires: mt-st
+Buildrequires: krb5-appl-clients
+Buildrequires: db51-utils
 BuildRequires: pciutils ldetect
 BuildRequires: packdrake rpmtools
 BuildRequires: vim-minimal
@@ -31,6 +33,7 @@ BuildRequires: ldetect-lst >= 0.1.222
 BuildRequires: ntfs-3g
 BuildRequires: cryptsetup photorec quota
 BuildRequires: pv
+Buildrequires: fakeroot
 
 %description
 rescue image
