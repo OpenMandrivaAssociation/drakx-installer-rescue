@@ -13,7 +13,7 @@ Url: http://wiki.mandriva.com/Tools/DrakX
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: perl-XML-Parser squashfs-tools mknod-m600
 BuildRequires: ldetect-lst-devel
-BuildRequires: hexedit grub rsync openssh-clients ncftp rsh netkit-telnet kbd strace
+BuildRequires: hexedit grub rsync openssh-clients ncftp kbd strace
 BuildRequires: gpart parted partimage
 BuildRequires: dump xfsdump eject testdisk extipl
 BuildRequires: xfsprogs reiserfsprogs jfsutils ntfsprogs dosfstools btrfs-progs
