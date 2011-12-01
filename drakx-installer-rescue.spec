@@ -45,14 +45,14 @@ rescue image
 make -C rescue
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
-dest=$RPM_BUILD_ROOT%{_libdir}/%name
+dest=%{buildroot}%{_libdir}/%name
 mkdir -p $dest
 cp -r rescue/rescue.sqfs $dest
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
