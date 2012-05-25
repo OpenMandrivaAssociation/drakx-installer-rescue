@@ -1,7 +1,6 @@
 %define _enable_debug_packages %{nil}
 %define debug_package          %{nil}
 
-
 Summary:        Rescue image
 Name:           drakx-installer-rescue
 Version:        1.23
@@ -34,6 +33,7 @@ BuildRequires:  cryptsetup photorec quota
 BuildRequires:  pv
 Buildrequires:  fakeroot 
 BuildRequires:  dropbear screen gdisk
+BuildRequires:  nilfs-utils
 
 %description
 rescue image
