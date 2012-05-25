@@ -14,14 +14,14 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: perl-XML-Parser squashfs-tools mknod-m600
 BuildRequires: ldetect-lst-devel
 BuildRequires: hexedit grub rsync openssh-clients ncftp kbd strace
-BuildRequires: gpart parted partimage
+BuildRequires: gpart parted partimage e2fsprogs
 BuildRequires: dump xfsdump eject testdisk extipl
 BuildRequires: xfsprogs reiserfsprogs jfsutils ntfsprogs dosfstools btrfs-progs
 BuildRequires: mdadm lvm2 dmraid kpartx dmraid-events dmsetup
 BuildRequires: setserial tcpdump
 BuildRequires: mt-st
 Buildrequires: krb5-appl-clients
-Buildrequires: db51-utils
+Buildrequires: db52-utils
 BuildRequires: pciutils ldetect
 BuildRequires: packdrake rpmtools
 BuildRequires: vim-minimal
@@ -34,6 +34,7 @@ BuildRequires: ntfs-3g
 BuildRequires: cryptsetup photorec quota
 BuildRequires: pv
 Buildrequires: fakeroot 
+BuildRequires: dropbear screen gdisk
 
 %description
 rescue image
