@@ -1,8 +1,8 @@
 Summary:        Rescue image
 Name:           drakx-installer-rescue
-Version:        1.22
-Release:        2
-Source0:        %{name}-%{version}.tar.bz2
+Version:        1.23
+Release:        1
+Source0:        %{name}-%{version}.tar.xz
 License:        GPLv2
 Group:          Development/Other
 Url:            http://wiki.mandriva.com/Tools/DrakX
