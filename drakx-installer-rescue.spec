@@ -33,8 +33,9 @@ BuildRequires:	ntfs-3g
 BuildRequires:	cryptsetup photorec quota
 BuildRequires:	pv
 Buildrequires:	fakeroot 
-BuildRequires:	dropbear screen gdisk
+BuildRequires:	dropbear screen
 BuildRequires:	nilfs-utils
+BuildRequires:	linux_logo
 
 %description
 rescue image
