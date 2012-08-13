@@ -4,7 +4,7 @@
 %define	family	drakx-installer
 Summary:	Rescue image
 Name:		%{family}-rescue
-Version:	1.25
+Version:	1.26
 Release:	1
 Source0:	%{name}-%{version}.tar.xz
 License:	GPLv2
