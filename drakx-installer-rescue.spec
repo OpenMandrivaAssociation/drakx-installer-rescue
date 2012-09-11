@@ -35,13 +35,16 @@ BuildRequires:	pv
 Buildrequires:	fakeroot 
 BuildRequires:	uclibc-dropbear screen
 BuildRequires:	nilfs-utils
-BuildRequires:	linux_logo
+# having issues moving this package in repos, so just workaround it for now..
+#BuildRequires:	linux_logo
+Patch0:		drakx-installer-rescue-1.27-workaround-bs-issues-with-linux_logo.patch
 
 %description
 rescue image
 
 %prep
 %setup -q
+%patch0 -p0
 
 %build
 %make -C rescue
